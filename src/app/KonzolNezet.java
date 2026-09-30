@@ -9,7 +9,7 @@ public class KonzolNezet {
         
     }
 
-    private void megjelenit() {
+    public void megjelenit() {
         for (Film film : filmekModell.getFilmek()) {
             System.out.println(film);
         }
