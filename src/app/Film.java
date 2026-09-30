@@ -15,6 +15,12 @@ public class Film {
         this.korhataros = korhataros;
     }
 
+    public Film(String cim) {
+        this.cim = cim;
+    }
+    
+    
+
     public double getPont() {
         return pont;
     }
@@ -34,6 +40,12 @@ public class Film {
     public int getMegjelenesiEv() {
         return megjelenesiEv;
     }
+
+    @Override
+    public String toString() {
+        return "Film{" + "cim=" + cim + ", rendezo=" + rendezo + ", megjelenesiEv=" + megjelenesiEv + ", pont=" + pont + ", korhataros=" + korhataros + '}';
+    }
+    
     
     
 }
