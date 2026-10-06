@@ -1,4 +1,4 @@
-package model;
+package Modell;
 
 public class Film {
     private String cim;

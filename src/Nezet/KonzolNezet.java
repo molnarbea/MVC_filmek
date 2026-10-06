@@ -1,7 +1,7 @@
-package nezet;
+package Nezet;
 
-import model.Film;
-import model.Filmek;
+import Modell.Film;
+import Modell.Filmek;
 
 public class KonzolNezet {
 

@@ -1,4 +1,4 @@
-package model;
+package Modell;
 
 import java.util.ArrayList;
 import java.util.Collections;
@@ -22,7 +22,7 @@ public class Filmek {
         }
     }
 
-    private void felvesz(Film film) {
+    public void felvesz(Film film) {
         filmek.add(film);
     }
 
